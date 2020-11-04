@@ -34,7 +34,7 @@ const dateFormat = require('dateformat');
 client.on("ready", () => {
 console.log(`${client.user.username} is oneline `);
     client.user.setActivity('')
-    client.user.setStatus('invisible')
+    client.user.setStatus('Idle')
 });
 
 
